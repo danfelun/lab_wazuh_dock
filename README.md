@@ -8,7 +8,7 @@ Procedimiento único para levantar **todos los contenedores** del laboratorio en
 - **victim01**: Ubuntu con `sshd`, `rsyslog` y `wazuh-agent`
 - **attacker01**: Ubuntu con `nmap`, `hydra` y cliente SSH
 
-Este README unifica el despliegue base de Wazuh en modo **single-node** y el despliegue adicional de **attacker01** y **victim01**. El despliegue base usa un `docker-compose.yml` con **un manager, un indexer y un dashboard**. Antes de iniciar, en Linux se debe ajustar `vm.max_map_count=262144`, generar certificados con `generate-indexer-certs.yml`, y luego levantar el entorno con `docker compose up -d`. El complemento del laboratorio agrega `victim01` y `attacker01`, conectados a la red del stack oficial, y se levanta combinando `docker-compose.yml` con `docker-compose.lab.yml`. Ambos comportamientos provienen de los README adjuntos. fileciteturn4file1 fileciteturn4file0
+Este README unifica el despliegue base de Wazuh en modo **single-node** y el despliegue adicional de **attacker01** y **victim01**. El despliegue base usa un `docker-compose.yml` con **un manager, un indexer y un dashboard**. Antes de iniciar, en Linux se debe ajustar `vm.max_map_count=262144`, generar certificados con `generate-indexer-certs.yml`, y luego levantar el entorno con `docker compose up -d`. El complemento del laboratorio agrega `victim01` y `attacker01`, conectados a la red del stack oficial, y se levanta combinando `docker-compose.yml` con `docker-compose.lab.yml`. 
 
 ---
 
