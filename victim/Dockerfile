@@ -27,6 +27,9 @@ COPY sshd_config /etc/ssh/sshd_config
 COPY ossec.conf /var/ossec/etc/ossec.conf
 COPY entrypoint.sh /entrypoint.sh
 
+# Asegurar que rsyslog escribe auth en /var/log/auth.log
+RUN echo 'auth,authpriv.*    /var/log/auth.log' > /etc/rsyslog.d/50-auth.conf
+
 RUN chmod +x /entrypoint.sh
 
 EXPOSE 22
