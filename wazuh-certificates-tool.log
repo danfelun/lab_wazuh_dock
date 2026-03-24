@@ -1,0 +1,26 @@
+23/03/2026 10:51:22 INFO: Verbose logging redirected to /home/unibague/Descargas/wazuh-docker/single-node/wazuh-certificates-tool.log
+23/03/2026 10:51:22 INFO: Generating the root certificate.
+23/03/2026 10:51:22 INFO: Generating Admin certificates.
+23/03/2026 10:51:22 INFO: Admin certificates created.
+23/03/2026 10:51:22 INFO: Generating Wazuh indexer certificates.
+23/03/2026 10:51:22 ERROR: Invalid IP or DNS <indexer-node-ip>
+23/03/2026 10:57:03 INFO: Verbose logging redirected to /home/unibague/Descargas/wazuh-docker/single-node/wazuh-certificates-tool.log
+23/03/2026 10:57:03 INFO: Generating the root certificate.
+23/03/2026 10:57:03 INFO: Generating Admin certificates.
+23/03/2026 10:57:04 INFO: Admin certificates created.
+23/03/2026 10:57:04 INFO: Generating Wazuh indexer certificates.
+23/03/2026 10:57:04 INFO: Wazuh indexer certificates created.
+23/03/2026 10:57:04 INFO: Generating Filebeat certificates.
+23/03/2026 10:57:04 INFO: Wazuh Filebeat certificates created.
+23/03/2026 10:57:04 INFO: Generating Wazuh dashboard certificates.
+23/03/2026 10:57:04 INFO: Wazuh dashboard certificates created.
+23/03/2026 11:04:38 INFO: Verbose logging redirected to /home/unibague/Descargas/wazuh-docker/single-node/wazuh-certificates-tool.log
+23/03/2026 11:04:38 INFO: Generating the root certificate.
+23/03/2026 11:04:38 INFO: Generating Admin certificates.
+23/03/2026 11:04:39 INFO: Admin certificates created.
+23/03/2026 11:04:39 INFO: Generating Wazuh indexer certificates.
+23/03/2026 11:04:39 INFO: Wazuh indexer certificates created.
+23/03/2026 11:04:39 INFO: Generating Filebeat certificates.
+23/03/2026 11:04:39 INFO: Wazuh Filebeat certificates created.
+23/03/2026 11:04:39 INFO: Generating Wazuh dashboard certificates.
+23/03/2026 11:04:39 INFO: Wazuh dashboard certificates created.

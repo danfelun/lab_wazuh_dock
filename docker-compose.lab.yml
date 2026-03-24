@@ -1,0 +1,29 @@
+services:
+  victim01:
+    build:
+      context: ./victim
+    container_name: victim01
+    hostname: victim01
+    restart: unless-stopped
+    environment:
+      WAZUH_MANAGER: wazuh.manager
+      WAZUH_AGENT_NAME: victim01
+    networks:
+      - wazuh_net
+
+  attacker01:
+    build:
+      context: ./attacker
+    container_name: attacker01
+    hostname: attacker01
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    command: ["sleep", "infinity"]
+    networks:
+      - wazuh_net
+
+networks:
+  wazuh_net:
+    external: true
+    name: single-node_default
