@@ -1,6 +1,11 @@
-# Wazuh SIEM Lab – single-node + attacker01 + victim01
+# Wazuh SIEM Lab – Single-node + Attacker01 + Victim01
 
-Procedimiento único para levantar **todos los contenedores** del laboratorio en un solo flujo:
+![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-blue)
+![Docker](https://img.shields.io/badge/Deploy-Docker-2496ED)
+![Security](https://img.shields.io/badge/Cybersecurity-Lab-red)
+![Status](https://img.shields.io/badge/Status-Functional-brightgreen)
+
+Procedimiento para levantar **todos los contenedores** del laboratorio en un solo flujo:
 
 - **Wazuh manager**
 - **Wazuh indexer**
